@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T15:38:21 IST" name="Default suite" finished-at="2024-07-26T15:39:40 IST" duration-ms="78390">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T15:38:21 IST" name="Default test" finished-at="2024-07-26T15:39:40 IST" duration-ms="78390">
+      <class name="SubCate.AddSubCate">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:SubCate.AddSubCate@fba92d3]" started-at="2024-07-26T15:38:21 IST" name="SetUp" finished-at="2024-07-26T15:39:40 IST" duration-ms="78221" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at SubCate.AddSubCate.SetUp(AddSubCate.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyLogin()[pri:1, instance:SubCate.AddSubCate@fba92d3]" started-at="2024-07-26T15:39:40 IST" name="VerifyLogin" finished-at="2024-07-26T15:39:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at SubCate.AddSubCate.SetUp(AddSubCate.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method signature="Verifyhome()[pri:2, instance:SubCate.AddSubCate@fba92d3]" started-at="2024-07-26T15:39:40 IST" name="Verifyhome" finished-at="2024-07-26T15:39:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at SubCate.AddSubCate.SetUp(AddSubCate.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyhome -->
+        <test-method signature="CreateVender()[pri:3, instance:SubCate.AddSubCate@fba92d3]" started-at="2024-07-26T15:39:40 IST" name="CreateVender" finished-at="2024-07-26T15:39:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0fd7853a55e97ccc08b26f2cde922e28, get {url=http://49.207.10.149:8080/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.113, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53930}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53930/devtoo..., se:cdpVersion: 126.0.2592.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fd7853a55e97ccc08b26f2cde922e28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at SubCate.AddSubCate.SetUp(AddSubCate.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateVender -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SubCate.AddSubCate@fba92d3]" started-at="2024-07-26T15:39:40 IST" name="quit" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1721988580262" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SubCate.AddSubCate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
